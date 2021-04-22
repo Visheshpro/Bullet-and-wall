@@ -25,11 +25,11 @@ function draw() {
 
    if(damage < 10){
 
-    bullet.shapeColor = rgb(0,255,0)
+    wall.shapeColor = rgb(0,255,0)
    }
    else if (damage > 10){
 
-    bullet.shapeColor = rgb(255, 0, 0)
+    wall.shapeColor = rgb(255, 0, 0)
    }
    
   }
